@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# SANI - TRANSTORNOS MENTAIS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - TECNÓLOGO`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`SEMESTRE`
+`1º SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Luiza Pinheiro Siqueira
+* Danilo de Oliveira Costa
+* Diego Ruan Gomes
+* Felipe Massahiro Taguchi Coelho
+* Marcela Ratton Santos Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 

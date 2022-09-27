@@ -1,12 +1,12 @@
-# SANI - TRANSTORNOS MENTAIS
+# TRANSTORNOS MENTAIS
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - TECNÓLOGO`
 
 `PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`1º SEMESTRE`
+`1º SEMESTRE - EIXO 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Portal de informações sobre os transtornos mentais prevalentes no Brasil.
 
 ## Integrantes
 

@@ -1,46 +1,32 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+De acordo com o Ministério da Saúde, os transtornos mentais ou doenças mentais são consideradas alterações de pensamento, emoções e/ou comportamento de maneira desproporcional. Estas alterações resultam em angústia significativa e/ou comprometimento de suas atividades cotidianas. Atualmente, os transtornos mentais mais prevalentes no Brasil são: ansiedade, depressão e transtornos de bipolaridade (SOARES NETO et al., 2016; LIMA JÚNIOR, 2013).
+
+Culturalmente ao longo da história, a sociedade sempre considerou os portadores de doenças mentais como diferentes e incapazes de serem produtivos em sociedade. Infelizmente, tais pensamentos ainda perpetuam nos dias atuais, pois pessoas diagnosticadas com doenças mentais ainda tendem a se sentirem inferiorizadas e envergonhadas. Como tentativa de minimizar tal sofrimento, portadores destas patologias tentem optar pelo isolamento social com o objetivo de evitar contato ou situações preconceituosas. Tais comportamentos podem provocar o agravo do quadro psicopatológico devido ao aumento da carga emocional resultante dos traumas e pressões sociais (SILVA T.C.M.F. MARCOLAN J.F., 2018).
+
+Evidencia-se que a falta de conhecimento sobre as doenças mentais pelos portadores, familiares e sociedade interfere diretamente na construção de pensamentos preconceituosos tanto pelo doente, quanto pelas pessoas que convivem com o mesmo (SILVA T.C.M.F. MARCOLAN J.F., 2018). É imprescindível, de acordo com a o nível de comprometimento da doença mental, que o doente possa se empoderar de informações e leque de terapias, haja vista que cada tratamento para tais patologias acabam sendo personalizados (RODRIGUES M. H, et al.,2021).
+
+Diante disso, torna-se fundamental que existam canais informação com uma linguagem clara e acessível que permita ao usuário acessar um conteúdo diversificado e que não limitem a sua condição de se informar de maneira adequada sobre o diagnóstico das doenças mentais mais prevalentes no Brasil, bem como seus sintomas, tratamentos e prevenções.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme exposto, a problemática a ser solucionada é a limitação das informações para os usuários que buscam se informar as doenças mentais mais prevalentes no Brasil, preconceito, causas e consequências sobre as doenças mentais na sociedade e o déficit de acesso a tipos de tratamentos, profissionais específicos e estudos sobre a temática com confiabilidade e agilidade.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo geral deste trabalho é a criação de um portal informativo que apresente ferramentas de fácil uso e que permita o acesso aos usuários sobre as doenças mentais mais prevalente no Brasil.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Como objetivos específicos, podemos ressaltar:**
+> - Fornecer funcionalidades que permitam fazer uma ponte entre o usuário e grupos de apoio nas redes sociais;
+> - Integrar com centrais de informações espalhadas na Internet sobre o assunto, passando por profissionais da área, técnicas e lógicas de tratamento, dicas para melhorar a saúde mental, projetos de prevenção ao suicídio, dentre outros;
+> - Permitir a criação de canais personalizados por usuário com tópicos de interesse individual. Nota-se a importância de manter uma coerência científica, mas também não se prender apenas a ela, tornando mais rico o conteúdo e favorecendo pontos culturais, religiosos e individuais sobre o assunto.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Em um estudo qualitativo realizado em uma Unidade Básica de Saúde, foram entrevistados 21 participantes com transtornos mentais. Como resultado, foi identificado que a falta de conhecimento sobre o transtorno mental foi a principal causa para o preconceito. O estigma é oriundo em todas as esferas sociais, mas tendo um fator de piora do quadro do sofrimento mental quando o preconceito estava atrelado ao meio familiar (SILVA T.C.M.F. MARCOLAN J.F., 2018).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, há uma falta de canais de informações que permitam aos usuários escolher conteúdos com linguagem acessível para maior clareza e compreensão sobre o assunto e informações com linguagem mais técnica. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Embora todas as pessoas possam se beneficiar de soluções para se informar, o foco deste trabalho está no público-alvo homens e mulheres entre 16 e 30 anos que possuem ou não algum transtorno mental com o intuito de se informar sobre as doenças mentais mais prevalentes no Brasil.

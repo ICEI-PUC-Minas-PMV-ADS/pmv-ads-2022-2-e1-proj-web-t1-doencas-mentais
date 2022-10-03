@@ -19,7 +19,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Adriano Ribeiro  |Buscar informações sobre os sintomas da depressão.|Me motivar a procurar um profissional da saúde.|
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Adriano Ribeiro  |Encontrar motivação para  conseguir executar suas cotidianas.|Porque devido aos sintomas depressivos não está conseguindo se sentir motivado para estudar, encontrar com os amigos, se desenvolver no estágio, dentre outros.|
+|Carlos Muller (Carol Muller)|Ter acesso à conteúdos a respeito de ansiedade.|Para estar melhor informado e não me desesperar.|
+|Carlos Muller (Carol Muller)|Buscar por tipos de tratamentos não medicamentosos para a ansiedade.|Para ao longo do tempo reduzir ou abandonar o uso de medicamentos.|
+|Felipe Ricci|Buscar por informações sobre o transtorno de bipolaridade.|Entender sobre os sintomas de transtorno de bipolaridade e os tipos de tratamentos.|
+|Felipe Ricci|Busca por formas de abordar a família sobre a bipolaridade e os sintomas da doença.|Mostrar aos familiares que possui bipolaridade e instruir sobre a importância e necessidade da rede de apoio.|
+|Maria da Silva|Busca por informações sobre o transtorno de ansiedade generalizada.|Entender os sintomas para ajudar na abordagem da filha com TAG.|
+|Maria da Silva|Busca por informações de tratamentos e tipos de profissionais que atendente esse transtorno.|Alcançar o melhor tratamento possível para a filha, bem como sua cura.|
+
 
 
 ## Requisitos
@@ -30,44 +37,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01|O site deve apresentar na página principal um texto acolhedor apresentado o site e os tipos de conteúdo abordado.|Alta|
+|RF-02|O site deve apresentar, para cada artigo, uma imagem correspondente ao assunto apresentado (thumbnail)|Média|
+|RF-03|O site deverá ter uma categorização dos transtornos mentais ansiedade, depressão e transtorno bipolar. Em sequência um desdobramento com informações específicas sobre cada doença.|Média|
+|RF-04|O site deverá informar os tipos de especialidades e suas linhas de tratamentos e os tipos de tratamentos não medicamentosos.|Média|
+|RF-05|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.|Alta|
+|RF-06|O site deve permitir visualizar as informações de contatos do mantenedor do site.|Média|
+|RF-07|O site deve permitir o compartilhamento de notícias e artigos visualizadas em plataformas de redes sociais.|Baixa|
+|RF-08|O site deve oferecer um campo para cadastro de newsletter pelos usuários.|Baixa|
+|RF-09|O site deve apresentar ícones de redes sociais como Facebook, Twitter e Instagram na página principal. (Button)|Baixa|
+|RF-10|O site deve ter uma aba de avaliações de usuários em relação aos tipos de tratamentos apresentados.|Baixa|
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).|Alta|
+|RNF-02|O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.|Alta|
+|RNF-03|O site deve ter bom nível de contraste entre os elementos da tela em conformidade.|Média|
+|RNF-04|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|Alta|
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto deverá ser entregue até o final do semestre |
+|RE-02| Não pode ser desenvolvido um módulo de backend        |
+|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho|

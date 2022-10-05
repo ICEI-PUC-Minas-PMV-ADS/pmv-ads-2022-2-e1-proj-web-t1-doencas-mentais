@@ -6,11 +6,10 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-|<img src="https://i.imgur.com/ghBKuAp.png" >|
-|---------------------------|
-|Adriano Ribeiro|
+![image](https://user-images.githubusercontent.com/98277143/193957843-9d7e199e-a525-4b6a-b899-7a1730cdc627.png)
+![image](https://user-images.githubusercontent.com/98277143/193958935-8a47a7c4-7283-49f7-8516-45d42963724e.png)
 
-Adriano Ribeiro tem 20 anos e atualmente é estudante de engenharia elétrica.
+
 
 ## Histórias de Usuários
 

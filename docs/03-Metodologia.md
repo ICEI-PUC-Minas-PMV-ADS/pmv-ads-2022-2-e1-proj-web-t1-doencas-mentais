@@ -38,21 +38,18 @@ etiquetas:
 
 ### Divisão de Papéis
 
-Utilizaremos a metodologia ágil como Scrum para a implantação do projeto.
+Utilizaremos metodologia ágil como Scrum para a implantação do projeto.
 
 Nossa equipe está organizada da seguinte forma:
+
 - `Scrum Master:` Marcela Ratton Santos Silva
 - `Product Owner:` Danilo De Oliveira Costa
 - `Desenvolvimento:` Diego Ruan Gomes, Felipe Massahiro Taguchi Coelho
 - `Design:` Ana Luiza Pinheiro Siqueira
 
-
-
 ### Processo
 
-A metodologia scrum foi conjugada com o método kanban de forma a tornar visual a distribuição de tarefas, o que está sendo feito por meio da ferramenta projects do github. As raias existentes são:
-
-Em nossa raiz temos:
+A metodologia scrum foi conjugada com o método kanban de forma a tornar visual a distribuição de tarefas, o que está sendo feito por meio da ferramenta projects do github. As raízes existentes são:
 
 - `Backlog`
 - `Todo`
@@ -62,7 +59,6 @@ Em nossa raiz temos:
 
 Em `Backlog` será apresentado tarefas que foram identificadas no projeto e que deverão ser trabalhadas pela equipe, `Todo` São nossas tarefas que irão ser inclusas no Sprint. Na aba `Em Progresso` estão localizadas nossas tarefas em desenvolvimento no momento, Já em `Em Teste` estão nossas tarefas que se encontram em fase de testes antes do push para o main e em `Concluido` estão nossas tarefas concluidas.
 ![image](https://user-images.githubusercontent.com/98277143/194721983-90fa7b66-4ec3-4d29-b3ab-f563995a18ef.png)
-
 
 ### Ferramentas
 

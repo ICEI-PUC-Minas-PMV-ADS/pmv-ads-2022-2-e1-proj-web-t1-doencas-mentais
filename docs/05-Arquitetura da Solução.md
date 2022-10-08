@@ -10,16 +10,12 @@ Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
 ![image](https://user-images.githubusercontent.com/58400407/194723891-0ab00980-4e95-4408-b3f9-fd7f42df02ee.png)
 
-Figura 01 - Arquitetura da Solução
+### Figura 01 - Arquitetura da Solução
+Contamos com os seguintes módulos:
 
-A solução implementada conta com os seguintes módulos:
-
-•	Navegador — interface básica com sistema (Client)
-
-•	Páginas Web — conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-
-•	Portal de notícias — websites que serve como base para o conteúdo do site.
-
-•	Github Pages — serviço de nuvem que permite o acesso às páginas ‘web’ acessadas através navegador. Ele será utilizado na hospedagem por ser um serviço do Github que permite hospedagem de arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização facilitada de entrega contínua sem necessidade de configuração adicional.
+- `Internet` Interface básica com sistema (Client)
+- `Páginas Web` Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+- `Portal de notícias` Websites que serve como base para o conteúdo do site.
+- `Github Pages` É utilizado para hospedagem do nosso site diretamente do repositório.
 
 

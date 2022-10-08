@@ -8,6 +8,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ![image](https://user-images.githubusercontent.com/98277143/193957843-9d7e199e-a525-4b6a-b899-7a1730cdc627.png)
 ![image](https://user-images.githubusercontent.com/98277143/193958935-8a47a7c4-7283-49f7-8516-45d42963724e.png)
+![image](https://user-images.githubusercontent.com/98277143/194715813-0ef5c9dc-361b-4134-a48a-75394f5057d0.png)
+![image](https://user-images.githubusercontent.com/98277143/194715818-95874b36-c31d-4b25-bd30-63ac13f89e9b.png)
+
 
 
 

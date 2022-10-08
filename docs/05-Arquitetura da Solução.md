@@ -7,6 +7,7 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 ## Diagrama de componentes
 
 Os componentes que fazem parte da solução são apresentados na Figura abaixo.
+
 ![image](https://user-images.githubusercontent.com/58400407/194723891-0ab00980-4e95-4408-b3f9-fd7f42df02ee.png)
 
 Figura 01 - Arquitetura da Solução

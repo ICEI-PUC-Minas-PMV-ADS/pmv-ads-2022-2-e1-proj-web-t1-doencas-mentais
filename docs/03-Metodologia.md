@@ -38,7 +38,7 @@ etiquetas:
 
 ### Divisão de Papéis
 
-Utilizaremos a metodologia ágil e como implantação da mesma usaremos o Scrum para o projeto.
+Utilizaremos a metodologia ágil como Scrum para a implantação do projeto.
 
 Nossa equipe está organizada da seguinte forma:
 - `Scrum Master:` Marcela Ratton Santos Silva
@@ -46,32 +46,30 @@ Nossa equipe está organizada da seguinte forma:
 - `Desenvolvimento:` Diego Ruan Gomes, Felipe Massahiro Taguchi Coelho
 - `Design:` Ana Luiza Pinheiro Siqueira
 
+
+
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A metodologia scrum foi conjugada com o método kanban de forma a tornar visual a distribuição de tarefas, o que está sendo feito por meio da ferramenta projects do github. As raias existentes são:
+
+Em nossa raiz temos:
+
+- `Backlog`
+- `Todo`
+- `Em Progresso`
+- `Em Teste`
+- `Concluido`
+
+Em `Backlog` será apresentado tarefas que foram identificadas no projeto e que deverão ser trabalhadas pela equipe, `Todo` São nossas tarefas que irão ser inclusas no Sprint. Na aba `Em Progresso` estão localizadas nossas tarefas em desenvolvimento no momento, Já em `Em Teste` estão nossas tarefas que se encontram em fase de testes antes do push para o main e em `Concluido` estão nossas tarefas concluidas.
+![image](https://user-images.githubusercontent.com/98277143/194721983-90fa7b66-4ec3-4d29-b3ab-f563995a18ef.png)
+
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+|Ferramenta | Foi Utilizada para | Sobre |
+|-------|-------------------------|----------|
+|`VSCode`| IDE | Ferramenta de código com intregação Git, permitindo criar commits de forma rápida para o projeto. 
+|`Teams` | Comunicação | Utilizado para as reuniões semanaias com nossa cordenadora Joyce e compartilhamento de arquivos. |
+|`Discord` | Comunicação | Utilizado em nossas reuniões semanais. |
+|`WhatsApp` | Comunicação | Utilizado para comunicações rápidas, lembretes e avisos de imprevistos assim como debate de ídeas. |
+|`Figma` | Wireframe & Diagramas | Ferramente com ótimas funcionalidades que nos permite planejar o wireframe e criação de diagramas pelo FigJam. |

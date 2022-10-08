@@ -9,17 +9,11 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 <img width="1474" alt="Untitled" src="https://user-images.githubusercontent.com/102487978/194725653-8f9ebdb6-dc74-41b4-b8d0-8dd5b2e6e370.png">
+
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+### Página inicial
+![image](https://user-images.githubusercontent.com/98277143/194729727-afdb3077-b3f8-465b-a7d4-2b12f7e4e735.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Ao abrir o site o usuário encontrará uma mensagem de boas-vindas e três botões que ao serem clicados apresentará uma uma rolagem para uma breve apresentação no local (Vide itens na figura acima). No lado direito do centro da página apresentaremos um container com nóticias e eventos pertinentes ao tema de bem estar mental.
+No rodapé se encontra links para rede sociais do projeto e links repetidos do menu e breve informação de contato do site

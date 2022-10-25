@@ -297,6 +297,18 @@
     margin-bottom: 0.5rem;
     width: 400px;
 }
+
+@media only screen and (max-width: 768px) {
+    .rodapeSecaoFrase{
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    .rodapeSecaoFrase{
+        margin-left: auto;
+    }
+}
 /* Fim css rodapé */
 /* Início barra inferior ao rodapé */
 .rodapeUnder {

@@ -1,8 +1,10 @@
 /* Aqui transformamos as cores da palheta de cores em nomes fáceis de lembrar e também que facilita a mudança futuro caso necessário */
 :root {
-    --claro: #78b69C;
-    --escuro: #5D8876;
-    --relevo: #f6d83A;
+    --claro: #306844;
+    --escuro: #2c4c3b;
+    --relevo: #E4DEAE;
+    --superescuro: #2c4444;
+    --branco: #fff;
 }
 /* Pertinente ao site todo */
 *   {
@@ -15,7 +17,12 @@
 /* Inicio css menu superior */
 .cabeContainer {
     width: 100%;
-    background-color: var(--escuro);
+    background-color: var(--claro);
+}
+
+.cabeContainerAlt {
+    width: 100%;
+    background-color: var(--white);
 }
 
 .cabeNav {
@@ -46,14 +53,32 @@
     justify-self: end;
 }
 
+.menuItensAlt {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* 6 é o número de itens no menu */
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
 /* Links do menu */
 .menuLinks {
-    color: white;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.menuLinksAlt {
+    color: var(--escuro);
     text-decoration: none;
 }
 /* Como o link irá se comportar ao passar o mouse */
 .menuLinks:hover {
     color: var(--relevo);
+    transition: all 0.3s ease-out;
+}
+
+.menuLinksAlt:hover {
+    color: var(--superescuro);
     transition: all 0.3s ease-out;
 }
 /* Menu hamburger */
@@ -64,16 +89,41 @@
     transition: all 0.2s ease-in-out;
     background: var(--relevo);
 }
+
+.menuHambuAlt .barAlt {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.2s ease-in-out;
+    background: var(--superescuro);
+}
 /* O Menu hamburguer irá aparecer nas telas com seguinte largura */
 @media screen and (max-width: 768px) {
     .cabeContainer {
         position: relative;
     }
 
+    .cabeContainerAlt {
+        position: relative;
+    }
+
     .menuItens {
         display: grid;
         grid-template-columns: auto;
-        background: var(--claro);
+        background: var(--escuro);
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+
+    .menuItensAlt {
+        display: grid;
+        grid-template-columns: auto;
+        background: var(--branco);
         margin: 0;
         width: 100%;
         position: absolute;
@@ -88,7 +138,14 @@
     }
 
     .menuItens.active {
-        background: var(--escuro);
+        background: var(--claro);
+        left: 0;
+        opacity: 1;
+        transition: all 0.4s ease;
+    }
+
+    .menuItensAlt.active {
+        background: var(--branco);
         left: 0;
         opacity: 1;
         transition: all 0.4s ease;
@@ -101,9 +158,22 @@
         display: table;
     }
 
-    .menuLinks.hover {
+    .menuLinksAlt {
+        text-align: center;
+        line-height: 60px;
+        width: 100%;
+        display: table;
+    }
+
+    .menuLinks:hover {
         background-color: var(--relevo);
-        color: white;
+        color: var(--escuro);
+        transition: all 0.4s ease-out;
+    }
+
+    .menuLinksAlt:hover {
+        background-color: var(--escuro);
+        color: var(--relevo);
         transition: all 0.4s ease-out;
     }
 
@@ -118,12 +188,28 @@
         transform: translate(5%, 20%)
     }
 
+    #menuMobileAlt {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%)
+    }
+
     .menuHambu .bar {
         display: block; 
         cursor: pointer;
     }
 
+    .menuHambuAlt .barAlt {
+        display: block; 
+        cursor: pointer;
+    }
+
     .menuHambu:hover {
+        cursor: pointer;
+    }
+
+    .menuHambuAlt:hover {
         cursor: pointer;
     }
 
@@ -138,5 +224,127 @@
     #menuMobile.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    #menuMobileAlt.is-active .barAlt:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menuMobileAlt.is-active .barAlt:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    #menuMobileAlt.is-active .barAlt:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
 /* Fim css menu */
+/* Início css rodapé */
+.footer {
+    justify-content: center;
+    background-color: var(--escuro);
+}
+
+.rodape {
+    width: 100%;
+    background-color: var(--escuro);
+    color: var(--branco);
+    display: flex;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 70px;
+}
+
+.rodapeSecao {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+}
+
+.rodapeSecao h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rodapeSecao a {
+    color: var(--branco);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.rodapeSecao a:hover {
+    color: var(--relevo);
+    transition: 0.3s ease-out;
+}
+
+.rodapeSecao p {
+    width: 400px;
+    text-align: justify;
+}
+
+.rodapeSecaoFrase {
+    margin-left: 50%;
+}
+
+.rodapeSecaoFrase h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rodapeSecaoFrase p {
+    margin-bottom: 0.5rem;
+}
+/* Fim css rodapé */
+/* Início barra inferior ao rodapé */
+.rodapeUnder {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--superescuro);
+    margin-bottom: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+}
+
+.rodapeUnder h2 {
+    color: var(--branco);
+    padding-left: 5%;
+}
+
+.rodapeUnder .rodapeRedesociais {
+    display: flex;
+    padding-right: 5%;
+}
+
+.rodapeRedesociais .rodapeSocial {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: var(--relevo);
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .2s ease-out;
+}
+
+.rodapeRedesociais .rodapeSocial a {
+    color: #000;
+    font-size: 1.5rem;
+    transition: color .2s ease-out;
+}
+
+.rodapeRedesociais .rodapeSocial:hover {
+    background: var(--claro);
+}
+
+.rodapeRedesociais .rodapeSocial:hover a {
+    color: var(--relevo);
+}
+/* Fim barra inferior ao rodapé */

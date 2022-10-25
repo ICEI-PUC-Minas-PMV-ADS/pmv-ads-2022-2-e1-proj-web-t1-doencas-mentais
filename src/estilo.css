@@ -1,0 +1,142 @@
+/* Aqui transformamos as cores da palheta de cores em nomes fáceis de lembrar e também que facilita a mudança futuro caso necessário */
+:root {
+    --claro: #78b69C;
+    --escuro: #5D8876;
+    --relevo: #f6d83A;
+}
+/* Pertinente ao site todo */
+*   {
+    font-family: 'Work Sans Light', sans-serif;
+    font-weight: 300;
+    box-sizing: bordex-box;
+    padding: 0;
+    margin: 0;
+}
+/* Inicio css menu superior */
+.cabeContainer {
+    width: 100%;
+    background-color: var(--escuro);
+}
+
+.cabeNav {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+/* Logo */
+#logo-default {
+    width: 170px;
+    height: 70px;
+    justify-self: start;
+    margin-top: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menuItens {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* 6 é o número de itens no menu */
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+
+/* Links do menu */
+.menuLinks {
+    color: white;
+    text-decoration: none;
+}
+/* Como o link irá se comportar ao passar o mouse */
+.menuLinks:hover {
+    color: var(--relevo);
+    transition: all 0.3s ease-out;
+}
+/* Menu hamburger */
+.menuHambu .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.2s ease-in-out;
+    background: var(--relevo);
+}
+/* O Menu hamburguer irá aparecer nas telas com seguinte largura */
+@media screen and (max-width: 768px) {
+    .cabeContainer {
+        position: relative;
+    }
+
+    .menuItens {
+        display: grid;
+        grid-template-columns: auto;
+        background: var(--claro);
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+
+    #logo-default {
+        margin-left: 20px;
+    }
+
+    .menuItens.active {
+        background: var(--escuro);
+        left: 0;
+        opacity: 1;
+        transition: all 0.4s ease;
+    }
+
+    .menuLinks {
+        text-align: center;
+        line-height: 60px;
+        width: 100%;
+        display: table;
+    }
+
+    .menuLinks.hover {
+        background-color: var(--relevo);
+        color: white;
+        transition: all 0.4s ease-out;
+    }
+
+    .cabeNav {
+        width: 100%;
+    }
+
+    #menuMobile {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%)
+    }
+
+    .menuHambu .bar {
+        display: block; 
+        cursor: pointer;
+    }
+
+    .menuHambu:hover {
+        cursor: pointer;
+    }
+
+    #menuMobile.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menuMobile.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    #menuMobile.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+/* Fim css menu */

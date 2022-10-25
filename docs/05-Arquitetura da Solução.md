@@ -13,9 +13,8 @@ Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 ### Figura 01 - Arquitetura da Solução
 Contamos com os seguintes módulos:
 
-- `Internet` Interface básica com sistema (Client)
-- `Páginas Web` Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-- `Portal de notícias` Websites que serve como base para o conteúdo do site.
+- `Navegador/Browser` Interface para facilitar a relação cliente-servidor, possibilitando as requisições de usuário em formato HTTP com mecanismos de buscas intuitivos.
+- `Páginas Web` Conteúdo da página, desde o documento HTML com as estilizações em CSS3, ou ainda recursos de interatividade com a página em código JavaScript, além das imgens utilizadas para ilustração.
 - `Github Pages` É utilizado para hospedagem do nosso site diretamente do repositório.
 
 

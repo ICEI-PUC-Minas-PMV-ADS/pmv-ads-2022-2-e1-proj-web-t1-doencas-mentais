@@ -8,7 +8,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
-<img width="1474" alt="Untitled" src="">
+<img width="1152" alt="User Flow" src="https://user-images.githubusercontent.com/102487978/197672297-771344c5-ba5b-4254-98da-efae53b24803.png">
 
 ## Wireframes
 

@@ -33,9 +33,3 @@ Ao selecionar o transtorno na opção de tratamento o usuário terá apresentaç
 ![image](https://user-images.githubusercontent.com/98277143/194729993-44bfc06d-51f7-41a9-b3f2-cb6780aeb185.png)
 
 Informação com mais detalhes do que a presente no rodapé do site, com email para sugestões e informação da organização.
-
-### Linguagem de design
-![image](https://user-images.githubusercontent.com/98277143/194730168-ad3ecb89-acd8-449d-a4c8-73b23443f5c5.png)
-
-Teremos como a cor principal do site o verde de cor hexadecimal #78B69C e a secundária o verde de cor hexadecimal #5D8876 e como contraste escolhemos a cor de realce amarela hexadecimal #F6D83A. Nossa fonte de preferência é a Roboto.
-

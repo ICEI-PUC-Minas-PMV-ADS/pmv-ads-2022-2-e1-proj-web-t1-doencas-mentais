@@ -10,3 +10,8 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 > - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
 > - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
+### Linguagem de design
+![image](https://user-images.githubusercontent.com/98277143/194730168-ad3ecb89-acd8-449d-a4c8-73b23443f5c5.png)
+
+Teremos como a cor principal do site o verde de cor hexadecimal #78B69C e a secundária o verde de cor hexadecimal #5D8876 e como contraste escolhemos a cor de realce amarela hexadecimal #F6D83A. Nossa fonte de preferência é a Roboto.

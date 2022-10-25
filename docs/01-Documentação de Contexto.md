@@ -27,7 +27,7 @@ Em um estudo qualitativo realizado em uma Unidade Básica de Saúde, foram entre
 
 Além disso, há uma falta de canais de informações que permitam aos usuários escolher conteúdos com linguagem acessível para maior clareza e compreensão sobre o assunto e informações com linguagem mais técnica.
 
-O acesso a um portal que ofereça diversas as informações ligadas as doenças metais mais prevalentes no Brasil, bem como tipos de tratamentos disponíveis pode gerar ao usuario enteder e conhecer mais sobre os sinais e sintomas das patologias, desenvolver censo crítico e emponderamento das informações para ser um componente ativo nas escolhas mais adequadas para o seu tratamento. 
+O acesso a um portal que ofereça diversas informações ligadas as doenças metais mais prevalentes no Brasil, bem como tipos de tratamentos disponíveis pode gerar ao usuario enteder e conhecer mais sobre os sinais e sintomas das patologias, desenvolver censo crítico e emponderamento das informações para ser um componente ativo nas escolhas mais adequadas para o seu tratamento. 
 
 ## Público-Alvo
 

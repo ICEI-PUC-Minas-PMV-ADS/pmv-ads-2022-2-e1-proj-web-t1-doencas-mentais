@@ -20,14 +20,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Adriano Ribeiro  |Buscar informações sobre os sintomas da depressão.|Me motivar a procurar um profissional da saúde.|
-|Adriano Ribeiro  |Encontrar motivação para  conseguir executar suas cotidianas.|Porque devido aos sintomas depressivos não está conseguindo se sentir motivado para estudar, encontrar com os amigos, se desenvolver no estágio, dentre outros.|
-|Carlos Muller (Carol Muller)|Ter acesso à conteúdos a respeito de ansiedade.|Para estar melhor informado e não me desesperar.|
+|Adriano Ribeiro  |Descobrir se minha falta de movitação perante a tudo é depressão.|Encontrando informações dos transtornos depressivos e relatos semelhantes ao que sinto.|
+|Adriano Ribeiro  |Como prosseguir com o tratamento.|Encontrar tratamentos disponíveis e me motivar a procurar um profissional da saúde.|
+|Carlos Muller (Carol Muller)|Ter acesso a conteúdos a respeito de ansiedade.|Para estar melhor informado e não me desesperar.|
 |Carlos Muller (Carol Muller)|Buscar por tipos de tratamentos não medicamentosos para a ansiedade.|Para ao longo do tempo reduzir ou abandonar o uso de medicamentos.|
 |Felipe Ricci|Buscar por informações sobre o transtorno de bipolaridade.|Entender sobre os sintomas de transtorno de bipolaridade e os tipos de tratamentos.|
 |Felipe Ricci|Busca por formas de abordar a família sobre a bipolaridade e os sintomas da doença.|Mostrar aos familiares que possui bipolaridade e instruir sobre a importância e necessidade da rede de apoio.|
 |Maria da Silva|Busca por informações sobre o transtorno de ansiedade generalizada.|Entender os sintomas para ajudar na abordagem da filha com TAG.|
-|Maria da Silva|Busca por informações de tratamentos e tipos de profissionais que atendente esse transtorno.|Alcançar o melhor tratamento possível para a filha, bem como sua cura.|
+|Maria da Silva|Busca por informações de tratamentos e tipos de profissionais que atendem o transtorn de sua filha.|Alcançar o melhor tratamento possível para a filha, bem como sua cura.|
 
 
 
@@ -47,7 +47,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-06|O site deve permitir visualizar as informações de contatos do mantenedor do site.|Média|
 |RF-07|O site deve permitir o compartilhamento de notícias e artigos visualizadas em plataformas de redes sociais.|Baixa|
 |RF-08|O site deve oferecer um campo para cadastro de newsletter pelos usuários.|Baixa|
-|RF-09|O site deve apresentar ícones de redes sociais como Facebook, Twitter e Instagram na página principal. (Button)|Baixa|
+|RF-09|O site deve apresentar ícones de redes sociais da própria organização como Facebook, Twitter e Instagram no rodapé do site. (Button)|Baixa|
 |RF-10|O site deve ter uma aba de avaliações de usuários em relação aos tipos de tratamentos apresentados.|Baixa|
 
 

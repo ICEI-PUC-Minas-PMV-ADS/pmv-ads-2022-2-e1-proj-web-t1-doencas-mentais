@@ -20,3 +20,4 @@ Contamos com os seguintes módulos:
 - `Github Pages` É utilizado para hospedagem do nosso site diretamente do repositório.
 
 - `API de sites de notícias` API para integração de notícias relacionadas a saúde mental, como novidades acadêmicas em torno do assunto, à página inicial do site.
+- `Internet` Conexão com o ambiente servidor, utilizando-se dos protocolos TCP/IP e dos métodos HTTP para o acesso aos conteúdos do site.

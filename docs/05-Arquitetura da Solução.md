@@ -14,7 +14,6 @@ Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 Contamos com os seguintes módulos:
 
 - `Navegador/Browser` Interface para facilitar a relação cliente-servidor, possibilitando as requisições de usuário em formato HTTP com mecanismos de buscas intuitivos.
-- `Páginas Web` Conteúdo da página, desde o documento HTML com as estilizações em CSS3, ou ainda recursos de interatividade com a página em código JavaScript, além das imgens utilizadas para ilustração.
+- `Página web` Conteúdo da página, desde o documento HTML com as estilizações em CSS3, ou ainda recursos de interatividade com a página em código JavaScript, além das imgens utilizadas para ilustração, salvos numa base de dados.
 - `Github Pages` É utilizado para hospedagem do nosso site diretamente do repositório.
-
-
+- 'API para sites de notícias' API para integração de notícias relacionadas a saúde mental, como novidades acadêmicas em torno do assunto, à página inicial do site.

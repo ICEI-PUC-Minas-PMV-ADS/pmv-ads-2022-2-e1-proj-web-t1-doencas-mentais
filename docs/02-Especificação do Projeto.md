@@ -22,12 +22,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Adriano Ribeiro  |Descobrir se minha falta de movitação perante a tudo é depressão.|Encontrando informações dos transtornos depressivos e relatos semelhantes ao que sinto.|
 |Adriano Ribeiro  |Como prosseguir com o tratamento.|Encontrar tratamentos disponíveis e me motivar a procurar um profissional da saúde.|
-|Carlos Muller (Carol Muller)|Ter acesso a conteúdos a respeito de ansiedade.|Para estar melhor informado e não me desesperar.|
+|Carlos Muller (Carol Muller)|Ter acesso à conteúdos a respeito de ansiedade.|Para estar melhor informado e não me desesperar.|
 |Carlos Muller (Carol Muller)|Buscar por tipos de tratamentos não medicamentosos para a ansiedade.|Para ao longo do tempo reduzir ou abandonar o uso de medicamentos.|
 |Felipe Ricci|Buscar por informações sobre o transtorno de bipolaridade.|Entender sobre os sintomas de transtorno de bipolaridade e os tipos de tratamentos.|
 |Felipe Ricci|Busca por formas de abordar a família sobre a bipolaridade e os sintomas da doença.|Mostrar aos familiares que possui bipolaridade e instruir sobre a importância e necessidade da rede de apoio.|
 |Maria da Silva|Busca por informações sobre o transtorno de ansiedade generalizada.|Entender os sintomas para ajudar na abordagem da filha com TAG.|
-|Maria da Silva|Busca por informações de tratamentos e tipos de profissionais que atendem o transtorn de sua filha.|Alcançar o melhor tratamento possível para a filha, bem como sua cura.|
+|Maria da Silva|Busca por informações de tratamentos e tipos de profissionais que atendem o transtornO de sua filha.|Alcançar o melhor tratamento possível para a filha, bem como sua cura.|
 
 
 

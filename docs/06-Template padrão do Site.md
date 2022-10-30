@@ -1,17 +1,31 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+Para os itens padronizados do site teremos o menu de navegação e rodapé responsivo, o menu de navegação somente na página inicial consiste da cor #306844 e letras de cor #FFFFFF enquanto em outras páginas o mesmo inverte as cores. Caso acessado por aparelhos smartphones, o menu de navegação vira uma interação com ícone hamburger o qual expande com os itens.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-> **Links Úteis**:
+>![image](https://user-images.githubusercontent.com/98277143/198886557-892d7937-5790-4b03-938d-b9f8449dd42a.png)
 >
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+>Menu de navegação para página inicial. (Logotipo placeholder) 
+
+>![image](https://user-images.githubusercontent.com/98277143/198886593-593f90fe-8497-4d40-a697-416e7f1e21fd.png)
+>
+>Menu de navegação para outras páginas. (Logotipo placeholder)
+
+>![image](https://user-images.githubusercontent.com/98277143/198886612-815e76d9-fc1a-417f-9f0b-e7363d19f912.png)
+>
+>Rodapé, nele consta mais links para retorno e outras páginas além de uma frase que muda a cada dia.
+
+>![image](https://user-images.githubusercontent.com/98277143/198886673-001162c9-e52f-4928-9cac-f013f5d9fb67.png)
+>
+>![image](https://user-images.githubusercontent.com/98277143/198887260-1a52c4d7-862c-4cd9-aec0-b01ba4567f06.png)
+>
+>Visualização mobile. A frase do dia é excluída.
+
+>![image](https://user-images.githubusercontent.com/98277143/198886680-5f14ff33-ac8b-4ffd-b0e7-961fce332e7e.png)
+>
+>Menu hamburger expandido.
+
 
 ### Linguagem de design
-![image](https://user-images.githubusercontent.com/98277143/194730168-ad3ecb89-acd8-449d-a4c8-73b23443f5c5.png)
+![image](https://user-images.githubusercontent.com/98277143/198887129-d34992b7-ca5f-41d0-b3b9-0093f5e7f66f.png)
 
-Teremos como a cor principal do site o verde de cor hexadecimal #78B69C e a secundária o verde de cor hexadecimal #5D8876 e como contraste escolhemos a cor de realce amarela hexadecimal #F6D83A. Nossa fonte de preferência é a Roboto.
+Teremos como paleta de cores os tons de verde: #306844,  #2c4c3b, #E4DEAE e no realce #E4DEAE. Nossa fonte de preferência é a Work Sans, fornecida pelo Google Fonts.

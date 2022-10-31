@@ -238,10 +238,18 @@
     }
 }
 /* Fim css menu */
-/* Início css rodapé */
+/* Início corpo página inicial*/
+.main {
+    text-align: center;
+}
+/* Fim css corpo página inicial*/
+    /* Início css rodapé */
 .footer {
     justify-content: center;
     background-color: var(--escuro);
+}
+.main_tdm {
+    text-align: left;
 }
 
 .rodape {

@@ -4,94 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Importar fonte Roboto do Google Fonts-->
+    <!--Importar fonte Work Sans do Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS do site-->
     <link rel="stylesheet" href="estilo.css">
     <title>Nome a definir</title>
-    <style>
-        h1{text-align: center;
-        font-family: Helvetica;
-        margin:50px;
-        font-size: 45px;}
-        h3{margin:30px, 0px;
-        font-family: Helvetica;
-        font-style: italic;
-        font-size: 30px;
-        text-align:center}
-        P{
-              font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-              font-size: 20px;
-              font-weight: normal;
-              margin-top: 30px;
-              text-align:justify; text-indent: 50px
-            }
-        /* Formatação de imagens com legendas*/
-
-        figure.foto-legenda {
-        border-width: 8px;
-        border-style: solid;
-        border-color: 24.5 71.7 64.6
-        }
-    </style>
 </head>
 <body>
-   <!--Menu-->
-   <div class="cabeContainerAlt">
-    <nav class="cabeNav">
-        <!--Logo-->
-        <img id="logo-default" src="img/logoalt.png" alt="">
-        <!--Icone hamburger mobile-->
-        <div class="menuHambuAlt" id="menuMobileAlt">
-            <span class="barAlt"></span>
-            <span class="barAlt"></span>
-            <span class="barAlt"></span>
-        </div>
-        <!--Fim Icone hamburger mobile-->
-        <ul class="menuItensAlt">
-            <!--Itens do Menu-->
-            <li><a href="index.html" class="menuLinksAlt">Início</a></li>
-            <li><a href="transtornos.html" class="menuLinksAlt">Transtornos</a></li>
-            <li><a href="tratamentos.html" class="menuLinksAlt">Tratamentos</a></li>
-            <li><a href="contato.html" class="menuLinksAlt">Contato</a></li>
-            <li><a href="cadastro.html" class="menuLinksAlt">Newsletter</a></li>
-        </ul>
-    </nav>
+    <!--Menu-->
+    <div class="cabeContainer">
+        <nav class="cabeNav">
+            <!--Logo-->
+            <img id="logo-default" src="img/logoindex.png" alt="">
+            <!--Icone hamburger mobile-->
+            <div class="menuHambu" id="menuMobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!--Fim Icone hamburger mobile-->
+            <ul class="menuItens">
+                <!--Itens do Menu-->
+                <li><a href="index.html" class="menuLinks">Início</a></li>
+                <li><a href="transtornos.html" class="menuLinks">Transtornos</a></li>
+                <li><a href="tratamentos.html" class="menuLinks">Tratamentos</a></li>
+                <li><a href="contato.html" class="menuLinks">Contato</a></li>
+                <li><a href="cadastro.html" class="menuLinks">Newsletter</a></li>
+            </ul>
+        </nav>
 </div>
     <!--Corpo-->
-     <hgroup>
-     <h1>Transtornos Mentais</h1>
-     <h3>Conhecendo e Desfazendo Preconceitos</h3>
+    <hgroup>
+      <h1>Transtornos Mentais</h1>
+       <h3>Conhecendo e Desfazendo Preconceitos</h3>
 
-     </hgroup>
-    <div>
-    <p>Atravez de  estudos recentes, especialistas em saúde mental (psiquiatras, psicólogos e terapeutas)
+    </hgroup>
+    <br/>
+<div>
+            <p>Atraves de  estudos recentes, especialistas em saúde mental (psiquiatras, psicólogos e terapeutas)
         puderam constatar um aumento nos casos de pacientes com diagnóstico ou hipóteses diagnósticas,
         que apontam para certos transtornos, como ansiedade, depessão e transtorno bipolar. Nesse contexto,
-    a falta de informação pode levar a escolhas que agravam o quadro dos indivíduos, sendo comum que estes
-indivíduos se deparem por exemlplo com informações incompletas, que dão uma visão mais pessimista no tocante a
-linhas de tratamento principalmente, empurrando pessoas, já muito preocupadas com os sintomas que já se manifestaram,
-para a crença de que um tratamento a base de medicação é mais efetivo.</p>
-    </div>
-    <!--Rodapé-->
-    <footer>
-        <div class="rodapeUnder">
-            <h2>Mindspace</h2>
-            <div class="rodapeRedesociais">
-                <div class="rodapeSocial">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </div>
-                <div class="rodapeSocial">
-                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                </div>
-                <div class="rodapeSocial">
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </div>
+        a falta de informação pode levar a escolhas que agravam o quadro dos indivíduos, sendo comum que estes
+        indivíduos se deparem por exemlplo com informações incompletas, que dão uma visão mais pessimista no tocante a
+        linhas de tratamento principalmente, empurrando pessoas, já muito preocupadas com os sintomas que já se manifestaram,
+        para a crença de que um tratamento a base de medicação é mais efetivo.</p>
+    
+        
+</div>
+<br/>
+     <figure class="imagem-legenda"> 
+        <img src="/src/img/medicacao-excesso.jpg"/>
+        <figcaption>
+            <h2>Mulher consumindo grande quantidade de medicamentos</h2>
+        </figcaption>
+     </figure>
+<br/>
+<div class="container2">
+   <p>Pessoas mais céticas em relação ao uso de medicamentos de forma contínua, podem por vezes,
+se sentirem desmotivadas a procurarem por um diagnóstico e consequentemente por tratamentos.
+   </p>
+   <p>Precisamos então, esclarecer questões conceituais básicas em torno dos transtornos, 
+    para assim mitigar o efeito de certos preconceitos.</p>
+    <br/>
+    <h3>Ansiedade</h3>
+    <br/>
+    <p>A ansiedade é um dos transtornos em maior ascensão em termos de número de casos diagnosticados,
+        a motivação para tal é amplamente debatida, parte da explicação pode estar no formato como o
+        individuo se relaciona com seus pares na modernidade, é comum escutarmos a respeito de como estamos sempre pressionados
+        a conquistar o sucesso no âmbito acadêmico, profissional e nos relacionamentos, tais progressos eram monitorados
+        apenas pela rede de relacionamento mais próxima a pessoa, atualmente, com o uso quase mandatório das redes sociais,
+        mais individuos foram introduzidos nessa relação de cobrança por resultados, numa equação onde o sucesso é compartilhado
+        num "post" e é recompensado por curtidas e a punição pelo fracasso vem no formato de exclusão/esquecimento. 
+    </p>
+    <p>Tal estrutura afeta principalmente a juventude, que já tem, segundo estudos científicos, uma tendência
+        a uma maior atração para a aprovação dos pares, levando à um estresse grande, na busca por se provar. 
+        Embora ilustre apenas uma pequena parte do problema
+    </p>
+</div>
+
+  <!--Barra de logo e links sociais-->
+  <footer>
+    <div class="rodapeUnder">
+        <h2>Mindspace</h2>
+        <div class="rodapeRedesociais">
+            <div class="rodapeSocial">
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+            <div class="rodapeSocial">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </div>
+            <div class="rodapeSocial">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
         </div>
-    </footer>
-    <!--Java, não retirar daqui-->
-    <script src="app.js"></script>
+    </div>
+</footer>
+<!--Script java do site, não retirar daqui-->
+<script src="hindex.js"></script>
 </body>
 </html>

@@ -371,15 +371,19 @@
 /* Fim barra inferior ao rodapé */
 
 /*Stylesheet página transtornos*/
-h1{text-align: center;
+
+    h1 {text-align: center;
     font-family: Helvetica;
     margin: 40px;
-    font-size: 45px;}
+    font-size: 45px;
+    color: var(--claro);}
     h3{margin:30px, 0px;
     font-family: Helvetica;
     font-style: italic;
     font-size: 30px;
-    text-align:left}
+    text-align:left;
+    color: var(--escuro);
+}
     P{
         text-align: justify;
         font-size: 20px;

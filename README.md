@@ -6,15 +6,14 @@
 
 `1º SEMESTRE - EIXO 1`
 
+MINDSPACE
 Portal de informações sobre os transtornos mentais prevalentes no Brasil.
 
 ## Integrantes
 
 * Ana Luiza Pinheiro Siqueira
-* Danilo de Oliveira Costa
 * Diego Ruan Gomes
 * Felipe Massahiro Taguchi Coelho
-* Marcela Ratton Santos Silva
 
 ## Orientador
 

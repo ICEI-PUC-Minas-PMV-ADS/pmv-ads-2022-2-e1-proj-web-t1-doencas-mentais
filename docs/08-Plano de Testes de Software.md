@@ -1,19 +1,22 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+## Teste 1
+| Condição  | Botão de compartilhamento para mídias sociais  |
+| ------------------- | ------------------- |
+| **Objetivo**  | Verificar se os botões de compartilhamento retornam a página em questão.  |
+| **Sucesso**  | Ao clicar no botão uma nova página da rede social selecionada abrirá com o endereço da página de nosso site.|
+| **Fracasso** | Se o usuário não estiver logado na rede social a interação pode ser perdida.|
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+## Teste 2
+| Condição  | Navbar responsiva com menu hamburger para mobile s  |
+| ------------------- | ------------------- |
+| **Objetivo**  | Em visualização mobile a navbar irá se esconder e um menu hamburger aparecerá.  |
+| **Sucesso**  | O menu mobile aparece em visualização mobile e abre um menu drop-down ao clicá-lo.|
+| **Fracasso** | O menu hamburger não irá aparecer e a o site ficará desalinhado.|
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+## Teste 3
+| Condição  | Seção de comentários  |
+| ------------------- | ------------------- |
+| **Objetivo**  | Uma seção de comentários utlizando o API DISQUS totalmente funcional |
+| **Sucesso**  | O usuário irá conseguir comentar e o comentário ficará na página mesmo ápos sair da mesma.|
+| **Fracasso** | O comentário é deletado depois de sair.|

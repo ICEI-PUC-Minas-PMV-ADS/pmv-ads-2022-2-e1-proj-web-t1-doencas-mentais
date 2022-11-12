@@ -1,4 +1,4 @@
-# TRANSTORNOS MENTAIS
+# MINDSPACE
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - TECNÓLOGO`
 
@@ -6,8 +6,7 @@
 
 `1º SEMESTRE - EIXO 1`
 
-MINDSPACE
-Portal de informações sobre os transtornos mentais prevalentes no Brasil.
+Mindspace é um portal de informações sobre os transtornos mentais prevalentes no Brasil.
 
 ## Integrantes
 

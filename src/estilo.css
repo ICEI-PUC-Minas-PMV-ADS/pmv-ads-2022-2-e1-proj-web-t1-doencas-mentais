@@ -38,7 +38,7 @@ body {
     height: 80px;
     width: 90%;
     max-width: 1720px;
-    margin: 0 auto;
+    margin-bottom: 0 auto;
 }
 /* Logo */
 #logo-default {
@@ -296,24 +296,25 @@ footer {
 /* Fim barra inferior ao rodapé */
 
 /*Stylesheet página transtornos*/
-h1 {text-align: center;
+.titulo h1 {
+    text-align: center;
     font-family: Helvetica;
     margin: 40px;
     font-size: 45px;
     color: var(--claro);}
-    h3{margin:30px, 0px;
+.titulo h3{
+    margin:30px, 0px;
     font-family: Helvetica;
     font-style: italic;
     font-size: 30px;
     text-align:left;
     color: var(--escuro);
 }
-    P{
+.titulo P{
         text-align: justify;
         font-size: 20px;
         text-indent: 50px
-        
-      }
+     }
 /* Formatação de imagens com legendas (transtornos) */
     figure.imagem-legenda{
         position:relative;
@@ -388,3 +389,48 @@ figure.imagem-legenda:active figcaption{
 .share-btn.reddit { background: #ff5700; }
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email { background: #444444; }
+
+/*Caixa de comentários*/
+#disqus_thread{
+    
+    background-color: lightgrey;
+    height: 450px;
+    width: 400px;
+
+
+
+
+ }
+#gridbox{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+div main{
+    grid-gap: 5px;
+
+
+}
+aside{
+    margin-top: 500px;
+    margin-left: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 699px) {
+    #disqus_thread{
+        width: 400px;
+}
+ }

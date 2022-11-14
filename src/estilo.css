@@ -392,7 +392,7 @@ figure.imagem-legenda:active figcaption{
 
 /*Caixa de comentários*/
 #disqus_thread{
-    
+
     background-color: lightgrey;
     height: 450px;
     width: 400px;
@@ -412,6 +412,7 @@ div main{
 
 }
 aside{
+    background-color: lightgrey;
     margin-top: 500px;
     margin-left: 50px;
 

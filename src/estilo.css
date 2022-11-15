@@ -451,12 +451,17 @@ figure.imagem-legenda:active figcaption{
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email { background: #444444; }
 /*Caixa de comentários*/
-#disqus_thread {
-    background-color: var(--branco);
-}
+#disqus_thread{
+    
+    background-color: lightgrey;
+    height: 450px;
+    width: 400px;
 
-.comentarios {
-    margin-top: 1.5rem;
+
+
+
+ }
+#gridbox{
     display: grid;
     grid-template-columns: 1fr 400px 1fr;
     grid-template-rows: 1fr;
@@ -466,8 +471,9 @@ figure.imagem-legenda:active figcaption{
     
 .comentariosDiv1 { grid-area: 1 / 2 / 2 / 3; }
 
-@media only screen and (max-width: 399px) {
-    .comentarios {
-        grid-template-columns: 1fr 350px 1fr;
-    }
+}
+aside{
+    margin-top: 500px;
+    margin-left: 50px;
+
 }

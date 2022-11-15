@@ -42,11 +42,11 @@ body {
 }
 /* Logo */
 #logo-default {
-    width: 170px;
-    height: 70px;
+    width: 137,5px;
+    height: 80px;
     justify-self: start;
-    margin-top: 3px;
-    margin-left: 20px;
+    margin-top: 1px;
+    margin-left: auto;
     cursor: pointer;
 }
 
@@ -96,7 +96,8 @@ body {
     }
 
     #logo-default {
-        margin-left: 20px;
+        justify-self: center;
+        margin-left: auto;
     }
 
     .menuItens.active {

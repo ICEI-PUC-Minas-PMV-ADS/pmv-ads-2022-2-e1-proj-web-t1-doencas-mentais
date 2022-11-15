@@ -11,4 +11,3 @@ menuMobile.addEventListener('click', function() {
 /**
  * Fim da animação
  */
-

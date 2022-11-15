@@ -26,9 +26,19 @@ body {
     background-color: var(--claro);
 }
 
-.cabeContainerAlt {
+#cabeContainerIndex {
+    background-color: transparent;
+}
+/* Header Inicio */
+header {
     width: 100%;
-    background-color: var(--white);
+    height: 100vh;
+    background-image: url(/src/img/header.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(6, 32, 39, 0.562);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .cabeNav {
@@ -40,6 +50,64 @@ body {
     max-width: 1720px;
     margin: 0 auto;
 }
+.mensagemBemVind {
+    padding: 0 30px;
+    margin-top: 35vh;
+    text-align: center;
+    color: var(--branco)
+}
+
+.mensagemBemVind h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.mensagemBemVind span {
+    color: var(--relevo);
+}
+
+.mensagemBemVind h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.botaoHeader {
+    margin-right: 40px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: var(--escuro);
+    color: var(--branco);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline;
+    justify-content: space-around;
+}
+
+.botaoHeader:hover {
+    background-color: var(--relevo);
+    text-decoration: none;
+    color: var(--escuro);
+    transition: .5s;
+}
+@media screen and (max-width: 625px) {
+    .mensagemBemVind {
+        margin-top: 15vh;
+    }
+    .mensagemBemVind h1 {
+        font-size: 40px;
+    }
+
+    .mensagemBemVind h2 {
+        font-size: 35px;
+    }
+    
+    .botaoHeader {
+        width: 80px;
+        margin-left: 35%;
+        display: flex;
+    }
+}
+
 /* Logo */
 #logo-default {
     width: 137,5px;
@@ -217,8 +285,7 @@ footer {
         margin-left: 20%;
     }
         .rodapeSecaoFrase {
-        margin-left: 15%;   
-        width: 350px;
+        display: none;
     }
 }
 
@@ -226,20 +293,12 @@ footer {
     .rodapeSecao {
         margin-left: 15%;
     }
-        .rodapeSecaoFrase {
-        margin-left: 15%;
-        width: 250px;
-    }
 }
 
 @media only screen and (max-width: 450px) {
     .rodapeSecao {
         margin-left: 5%;
         margin-bottom: 20px;    
-    }
-        .rodapeSecaoFrase {
-        margin-left: 5%;
-        width: 250px;
     }
 }
 

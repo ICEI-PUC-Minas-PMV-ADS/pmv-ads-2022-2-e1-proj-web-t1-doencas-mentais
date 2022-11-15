@@ -6,7 +6,9 @@
 
 `1º SEMESTRE - EIXO 1`
 
-Mindspace é um portal de informações sobre os transtornos mentais prevalentes no Brasil.
+![image](https://user-images.githubusercontent.com/98277143/201804014-e656c94d-3fbd-40d0-b7f4-6eb0aad12510.png)
+
+Portal de informações sobre os transtornos mentais prevalentes no Brasil.
 
 ## Integrantes
 

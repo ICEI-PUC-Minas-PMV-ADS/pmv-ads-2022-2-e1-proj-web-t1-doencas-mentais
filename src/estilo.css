@@ -50,6 +50,7 @@ header {
     max-width: 1720px;
     margin: 0 auto;
 }
+
 .mensagemBemVind {
     padding: 0 30px;
     margin-top: 35vh;
@@ -89,6 +90,7 @@ header {
     color: var(--escuro);
     transition: .5s;
 }
+
 @media screen and (max-width: 625px) {
     .mensagemBemVind {
         margin-top: 15vh;
@@ -107,7 +109,6 @@ header {
         display: flex;
     }
 }
-
 /* Logo */
 #logo-default {
     width: 137,5px;

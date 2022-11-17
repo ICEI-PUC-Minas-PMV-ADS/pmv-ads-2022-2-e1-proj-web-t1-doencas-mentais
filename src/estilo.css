@@ -10,11 +10,11 @@
 *   {
     font-family: 'Work Sans Light', sans-serif;
     font-weight: 300;
-    box-sizing: bordex-box;
     padding: 0;
     margin: 0px 0px 0px 0px;
     border: 0px;
 }
+
 body {
     min-height: 100vh;
     display: flex;
@@ -452,15 +452,11 @@ figure.imagem-legenda:active figcaption{
 .share-btn.email { background: #444444; }
 /*Caixa de comentários*/
 #disqus_thread{
-    
     background-color: lightgrey;
     height: 450px;
     width: 400px;
+}
 
-
-
-
- }
 #gridbox{
     display: grid;
     grid-template-columns: 1fr 400px 1fr;
@@ -471,9 +467,97 @@ figure.imagem-legenda:active figcaption{
     
 .comentariosDiv1 { grid-area: 1 / 2 / 2 / 3; }
 
+/* Homepage */
+.paginaInicial {  
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 1px 1px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: end;
+    justify-items: center;
+    align-items: center;
 }
-aside{
-    margin-top: 500px;
-    margin-left: 50px;
 
+.noticias { grid-area: 1 / 3 / 4 / 4; }
+ 
+.imgAnsiedade { grid-area: 1 / 1 / 2 / 2; }
+ 
+.imgDepressao { grid-area: 2 / 1 / 3 / 2; }
+ 
+.imgBorderline { grid-area: 3 / 1 / 4 / 2; }
+ 
+.breveAnsiedade {
+    justify-self: start;
+    align-self: center;
+    grid-area: 1 / 2 / 2 / 3;
+}
+ 
+.breveDepressao {
+    justify-self: start;
+    grid-area: 2 / 2 / 3 / 3;
+}
+  
+.breveBorderline {
+    justify-self: start;
+    grid-area: 3 / 2 / 4 / 3;
+}
+  
+.traco {
+   justify-self: start;
+   align-self: stretch;
+   grid-area: 2 / 3 / 3 / 4;
+   width: 1px;
+   border-left: thick solid var(--superescuro);
+}
+
+.paginaInicial h2 {
+    color: var(--superescuro);
+}
+.paginaInicial p {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .traco {
+        display: none
+    }
+
+    .noticias {
+        display:none
+    }
+
+    .paginaInicial {
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .paginaInicial {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-auto-flow: row dense;
+        grid-template-areas:
+          "imgAnsiedade"
+          "breveAnsiedade"
+          "imgDepressao"
+          "breveDepressao"
+          "imgBorderline"
+          "breveBorderline";
+      }
+      
+      .imgAnsiedade { grid-area: imgAnsiedade; }
+      
+      .breveAnsiedade { grid-area: breveAnsiedade; }
+      
+      .imgDepressao { grid-area: imgDepressao; }
+      
+      .breveDepressao { grid-area: breveDepressao; }
+      
+      .imgBorderline { grid-area: imgBorderline; }
+      
+      .breveBorderline { grid-area: breveBorderline; }
+                    
 }

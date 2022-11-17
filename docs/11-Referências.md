@@ -10,3 +10,5 @@ http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1679-432X2008000100
 https://descomplica.com.br/blog/ansiedade-dsm-v/
 <br/>
 Artigo: TRANSTORNOS DE ANSIEDADE: UM ESTUDO DE PREVALÊNCIA SOBRE AS FOBIAS ESPECÍFICAS E A IMPORTÂNCIA DA AJUDA PSICOLÓGICA
+
+https://www.paho.org/pt/topicos/transtornos-mentais

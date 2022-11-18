@@ -80,6 +80,7 @@ header {
     color: var(--branco);
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 30px;
     display: inline;
     justify-content: space-around;
 }
@@ -491,16 +492,19 @@ figure.imagem-legenda:active figcaption{
 .breveAnsiedade {
     justify-self: start;
     align-self: center;
+    margin-bottom: 2rem;
     grid-area: 1 / 2 / 2 / 3;
 }
  
 .breveDepressao {
     justify-self: start;
+    margin-bottom: 2rem;
     grid-area: 2 / 2 / 3 / 3;
 }
   
 .breveBorderline {
     justify-self: start;
+    margin-bottom: 2rem;
     grid-area: 3 / 2 / 4 / 3;
 }
   
@@ -514,9 +518,11 @@ figure.imagem-legenda:active figcaption{
 
 .paginaInicial h2 {
     color: var(--superescuro);
+    margin-bottom: 1rem;
 }
 .paginaInicial p {
     font-size: 15px;
+    margin-bottom: 1.5rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -548,16 +554,34 @@ figure.imagem-legenda:active figcaption{
           "breveBorderline";
       }
       
-      .imgAnsiedade { grid-area: imgAnsiedade; }
+      .imgAnsiedade { 
+        grid-area: imgAnsiedade;
+        margin-left: 1rem;
+     }
       
-      .breveAnsiedade { grid-area: breveAnsiedade; }
+      .breveAnsiedade { 
+        grid-area: breveAnsiedade;
+        margin-left: 1rem;
+     }
       
-      .imgDepressao { grid-area: imgDepressao; }
+      .imgDepressao { 
+        grid-area: imgDepressao;
+        margin-left: 1rem;
+     }
       
-      .breveDepressao { grid-area: breveDepressao; }
+      .breveDepressao { 
+        grid-area: breveDepressao;
+        margin-left: 1rem;
+     }
       
-      .imgBorderline { grid-area: imgBorderline; }
+      .imgBorderline { 
+        grid-area: imgBorderline;
+        margin-left: 1rem;
+     }
       
-      .breveBorderline { grid-area: breveBorderline; }
+      .breveBorderline { 
+        grid-area: breveBorderline;
+        margin-left: 1rem;
+     }
                     
 }

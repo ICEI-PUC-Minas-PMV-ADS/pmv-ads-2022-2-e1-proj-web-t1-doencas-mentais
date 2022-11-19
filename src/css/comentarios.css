@@ -1,0 +1,16 @@
+/*Caixa de comentários*/
+#disqus_thread{
+    background-color: lightgrey;
+    height: 450px;
+    width: 400px;
+}
+
+#gridbox{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.comentariosDiv1 { grid-area: 1 / 2 / 2 / 3; }

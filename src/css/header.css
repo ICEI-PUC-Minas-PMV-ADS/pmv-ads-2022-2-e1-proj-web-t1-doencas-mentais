@@ -1,0 +1,74 @@
+#cabeContainerIndex {
+    background-color: transparent;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/src/img/header.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(6, 32, 39, 0.562);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mensagemBemVind {
+    padding: 0 30px;
+    margin-top: 35vh;
+    text-align: center;
+    color: var(--branco)
+}
+
+.mensagemBemVind h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.mensagemBemVind span {
+    color: var(--relevo);
+}
+
+.mensagemBemVind h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.botaoHeader {
+    margin-right: 40px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: var(--escuro);
+    color: var(--branco);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: inline;
+    justify-content: space-around;
+}
+
+.botaoHeader:hover {
+    background-color: var(--relevo);
+    text-decoration: none;
+    color: var(--escuro);
+    transition: .5s;
+}
+
+@media screen and (max-width: 625px) {
+    .mensagemBemVind {
+        margin-top: 15vh;
+    }
+    .mensagemBemVind h1 {
+        font-size: 40px;
+    }
+
+    .mensagemBemVind h2 {
+        font-size: 35px;
+    }
+    
+    .botaoHeader {
+        width: 80px;
+        margin-left: 35%;
+        display: flex;
+    }
+}

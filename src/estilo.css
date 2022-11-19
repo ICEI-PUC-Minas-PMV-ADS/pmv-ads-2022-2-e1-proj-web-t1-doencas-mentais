@@ -1,3 +1,6 @@
+@import url(css/newsletter.css);
+@import url(css/header.css);
+@import url(css/comentarios.css);
 /* Aqui transformamos as cores da palheta de cores em nomes fáceis de lembrar e também que facilita a mudança futuro caso necessário */
 :root {
     --claro: #306844;
@@ -26,21 +29,6 @@ body {
     background-color: var(--claro);
 }
 
-#cabeContainerIndex {
-    background-color: transparent;
-}
-/* Header Inicio */
-header {
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/header.jpg);
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(6, 32, 39, 0.562);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .cabeNav {
     display: grid;
     grid-template-columns: 0.2fr auto 1fr;
@@ -49,66 +37,6 @@ header {
     width: 90%;
     max-width: 1720px;
     margin: 0 auto;
-}
-
-.mensagemBemVind {
-    padding: 0 30px;
-    margin-top: 35vh;
-    text-align: center;
-    color: var(--branco)
-}
-
-.mensagemBemVind h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-.mensagemBemVind span {
-    color: var(--relevo);
-}
-
-.mensagemBemVind h2 {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.botaoHeader {
-    margin-right: 40px;
-    padding: 10px 30px;
-    text-decoration: none;
-    background-color: var(--escuro);
-    color: var(--branco);
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    display: inline;
-    justify-content: space-around;
-}
-
-.botaoHeader:hover {
-    background-color: var(--relevo);
-    text-decoration: none;
-    color: var(--escuro);
-    transition: .5s;
-}
-
-@media screen and (max-width: 625px) {
-    .mensagemBemVind {
-        margin-top: 15vh;
-    }
-    .mensagemBemVind h1 {
-        font-size: 40px;
-    }
-
-    .mensagemBemVind h2 {
-        font-size: 35px;
-    }
-    
-    .botaoHeader {
-        width: 80px;
-        margin-left: 35%;
-        display: flex;
-    }
 }
 /* Logo */
 #logo-default {
@@ -218,16 +146,11 @@ header {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
-/* Fim css menu */
-/* Início corpo página inicial*/
-.main {
-    text-align: center;
-}
-/* Fim css corpo página inicial*/
 /* Início css rodapé */
 footer {
     margin-top: auto;
 }
+
 .rodape {
     width: 100%;
     background-color: var(--escuro);
@@ -303,8 +226,6 @@ footer {
         margin-bottom: 20px;    
     }
 }
-
-/* Fim css rodapé */
 /* Início barra inferior ao rodapé */
 .rodapeUnder {
     width: 100%;
@@ -355,16 +276,16 @@ footer {
 .rodapeRedesociais .rodapeSocial:hover a {
     color: var(--relevo);
 }
-/* Fim barra inferior ao rodapé */
-
 /*Stylesheet página transtornos*/
 .titulo h1 {
     text-align: center;
     font-family: Helvetica;
     margin: 40px;
     font-size: 45px;
-    color: var(--claro);}
-.titulo h3{
+    color: var(--claro);
+}
+
+.titulo h3 {
     margin:30px, 0px;
     font-family: Helvetica;
     font-style: italic;
@@ -372,11 +293,12 @@ footer {
     text-align:left;
     color: var(--escuro);
 }
-.titulo P{
-        text-align: justify;
-        font-size: 20px;
-        text-indent: 50px
-     }
+
+.titulo P {
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 50px
+}
 /* Formatação de imagens com legendas (transtornos) */
     figure.imagem-legenda{
         position:relative;
@@ -420,15 +342,15 @@ figure.imagem-legenda:active figcaption{
 }
 
 .share-btn:hover {
-  color: #eeeeee;
+    color: #eeeeee;
 }
 
 .share-btn:active {
-  position: relative;
-  top: 2px;
-  box-shadow: none;
-  color: #e2e2e2;
-  outline: none;
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
 }
 
 .share-btnLi {
@@ -451,23 +373,6 @@ figure.imagem-legenda:active figcaption{
 .share-btn.reddit { background: #ff5700; }
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email { background: #444444; }
-/*Caixa de comentários*/
-#disqus_thread{
-    background-color: lightgrey;
-    height: 450px;
-    width: 400px;
-}
-
-#gridbox{
-    display: grid;
-    grid-template-columns: 1fr 400px 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-    
-.comentariosDiv1 { grid-area: 1 / 2 / 2 / 3; }
-
 /* Homepage */
 .paginaInicial {  
     display: grid;
@@ -552,36 +457,36 @@ figure.imagem-legenda:active figcaption{
           "breveDepressao"
           "imgBorderline"
           "breveBorderline";
-      }
+    }
       
-      .imgAnsiedade { 
+    .imgAnsiedade { 
         grid-area: imgAnsiedade;
         margin-left: 1rem;
-     }
+    }
       
-      .breveAnsiedade { 
+    .breveAnsiedade { 
         grid-area: breveAnsiedade;
         margin-left: 1rem;
-     }
+    }
       
-      .imgDepressao { 
+    .imgDepressao { 
         grid-area: imgDepressao;
         margin-left: 1rem;
-     }
+    }
       
-      .breveDepressao { 
+    .breveDepressao { 
         grid-area: breveDepressao;
         margin-left: 1rem;
-     }
+    }
       
-      .imgBorderline { 
+    .imgBorderline { 
         grid-area: imgBorderline;
         margin-left: 1rem;
-     }
+    }
       
-      .breveBorderline { 
+    .breveBorderline { 
         grid-area: breveBorderline;
         margin-left: 1rem;
-     }
+    }
                     
 }

@@ -34,7 +34,7 @@
                     <li><a href="transtornos.html" class="menuLinks">Transtornos</a></li>
                     <li><a href="tratamentos.html" class="menuLinks">Tratamentos</a></li>
                     <li><a href="contato.html" class="menuLinks">Contato</a></li>
-                    <li><a href="cadastro.html" class="menuLinks">Newsletter</a></li>
+                    <li><a href="#" class="menuLinks" id="newsletter">Newsletter</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,6 +48,30 @@
             </div>
         </div>
     </header>
+    <!--Contato PopUp-->
+    <div class="modal" id="email-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-content-left">
+                <img src="img/contato.svg" id="modal-img" alt="">
+            </div>
+            <div class="modal-content-right">
+                <form action="/" method="GET" class="modal-form" id="form">
+                    <h1>Fique por dentro das novidades.</h1>
+                    <div class="form-validation">
+                        <input type="text" class="modal-input" id="name" name="Nome" placeholder="Entre seu nome">
+                        <p>Error</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="email" class="modal-input" id="email" name="Email" placeholder="Entre seu e-mail">
+                        <p>Error</p>
+                    </div>
+                    <input type="submit" class="modal-input-btn" value="Inscrever">
+                    <span class="modal-input-login">Saiba das últimas notícias de tratamentos e descobertas sobre transtornos mentais.</span>
+                </form>
+            </div>
+        </div>
+    </div>
     <!--Corpo-->
     <main>
         <div class="paginaInicial">
@@ -85,11 +109,11 @@
                 <h2>Menu</h2>
                 <a href="index.html">Início</a>
                 <a href="contato.html">Contato</a>
-                <a href="cadastro.html">Newsletter</a>
+                <a href="#" id="newsletter">Newsletter</a>
             </div>
             <div class="rodapeSecao">
                 <h2>Transtornos</h2>
-                <a href=    "ansiedade.html">Ansiedade</a>
+                <a href="ansiedade.html">Ansiedade</a>
                 <a href="bipolar.html">Bipolar</a>
                 <a href="depressao.html">Depressão</a>
             </div>

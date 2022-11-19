@@ -20,3 +20,11 @@
 | **Objetivo**  | Uma seção de comentários utlizando o API DISQUS totalmente funcional |
 | **Sucesso**  | O usuário irá conseguir comentar e o comentário ficará na página mesmo ápos sair da mesma.|
 | **Fracasso** | O comentário é deletado depois de sair.|
+
+## Teste 4
+| Condição  | Seção de comentários  |
+| ------------------- | ------------------- |
+| **Objetivo**  | Verificar se o campo de newsletter aceita inscrição somente com texto no campo de nome e um email válido no campo de email. |
+| **Sucesso**  | As caixas de texto de nome e email ficarão verdes. |
+| **Fracasso** | As caixas de texto de nome e email ficarão vermelhas e uma mensagem de erro aparecerá.|
+

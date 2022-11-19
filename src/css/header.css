@@ -5,7 +5,7 @@
 header {
     width: 100%;
     height: 100vh;
-    background-image: url(/src/img/header.jpg);
+    background-image: url('../img/header.jpg');
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(6, 32, 39, 0.562);
     background-repeat: no-repeat;

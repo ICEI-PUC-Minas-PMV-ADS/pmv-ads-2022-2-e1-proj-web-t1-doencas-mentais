@@ -43,11 +43,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02|O site deve apresentar, para cada artigo, uma imagem correspondente ao assunto apresentado (thumbnail)|Média|
 |RF-03|O site deverá ter uma categorização dos transtornos mentais ansiedade, depressão e transtorno bipolar. Em sequência um desdobramento com informações específicas sobre cada doença.|Média|
 |RF-04|O site deverá informar os tipos de especialidades e suas linhas de tratamentos e os tipos de tratamentos não medicamentosos.|Média|
-|RF-06|O site deve permitir visualizar as informações de contatos do mantenedor do site.|Média|
-|RF-07|O site deve permitir o compartilhamento de notícias e artigos visualizadas em plataformas de redes sociais.|Baixa|
-|RF-08|O site deve oferecer um campo para cadastro de newsletter pelos usuários.|Alta|
-|RF-09|O site deve apresentar ícones de redes sociais da própria organização como Facebook, Twitter e Instagram no rodapé do site. (Button)|Baixa|
-|RF-10|O site deve ter uma aba de comentários de usuários em relação aos tipos de tratamentos apresentados.|Baixa|
+|RF-05|O site deve permitir visualizar as informações de contatos do mantenedor do site.|Média|
+|RF-06|O site deve permitir o compartilhamento de notícias e artigos visualizadas em plataformas de redes sociais.|Baixa|
+|RF-07|O site deve oferecer um campo para cadastro de newsletter pelos usuários.|Alta|
+|RF-08|O site deve apresentar ícones de redes sociais da própria organização como Facebook, Twitter e Instagram no rodapé do site. (Button)|Baixa|
+|RF-09|O site deve ter uma aba de comentários de usuários em relação aos tipos de tratamentos apresentados.|Baixa|
 
 
 

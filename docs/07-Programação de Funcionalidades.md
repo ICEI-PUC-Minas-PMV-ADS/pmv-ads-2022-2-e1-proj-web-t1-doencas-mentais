@@ -1,9 +1,7 @@
 # Programação de Funcionalidades
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
 ## O site deve apresentar na página principal um texto acolhedor apresentado o site e os tipos de conteúdo abordado.
-Ao acessar o site nos deparamos com um <header> responsivo que possue uma mensagem acolhedora e 3 botões que levam a um breve resumo de cada transtorno
+Ao acessar o site nos deparamos com um header responsivo que possue uma mensagem acolhedora e 3 botões que levam a um breve resumo de cada transtorno.
 ![image](https://user-images.githubusercontent.com/98277143/203452066-737b7e52-917b-4df8-88ff-2d381dcfcc9c.png)
 Nessa mensagem os botões usam um link com o elemento **Id** para chegar até a parte da página com a breve apresentaçao do transtorno:
 ![image](https://user-images.githubusercontent.com/98277143/203452327-352bc2a6-f1b5-4652-81e0-2510d8a456ad.png)
@@ -11,7 +9,7 @@ Link **#Ansiedade** leva até o Id **Ansiedade.**
 ![image](https://user-images.githubusercontent.com/98277143/203452373-cff2dafd-53c8-4012-9413-6ab13ba9535d.png)
 
 ## O site deve permitir o compartilhamento de notícias e artigos visualizadas em plataformas de redes sociais.
-Para o compartilhamento de notícias utilizamos uma simples **div** com função de listas, estilizamos por CSS. A função para compartilhar é um link simples com endereço para o site de destino que é fornecido pelo mesmo em formato de compartilhamento.
+Para o compartilhamento de notícias utilizamos uma simples **div** com função de listas, estilizadas por CSS. A função para compartilhar é um link simples com endereço para o site de destino que é fornecido pelo mesmo em formato em uma API de compartilhamento.
 ![image](https://user-images.githubusercontent.com/98277143/203453073-00cbeabf-4eb5-471a-84b1-0e2acb6fc368.png)
 ![image](https://user-images.githubusercontent.com/98277143/203452801-03776ab2-6252-4f22-bd6b-bc44ac5f513d.png)
 ![image](https://user-images.githubusercontent.com/98277143/203453051-6a041753-75b8-4381-911b-023422e3e1c3.png)

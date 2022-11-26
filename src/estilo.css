@@ -383,10 +383,12 @@ figure.imagem-legenda:active figcaption{
     justify-content: center;
     align-content: end;
     justify-items: center;
-    align-items: center;
 }
 
-.noticias { grid-area: 1 / 3 / 4 / 4; }
+.noticias { 
+    grid-area: 1 / 3 / 4 / 4; 
+    margin-top: 1.5rem;
+}
  
 .imgAnsiedade { grid-area: 1 / 1 / 2 / 2; }
  
@@ -403,12 +405,14 @@ figure.imagem-legenda:active figcaption{
  
 .breveDepressao {
     justify-self: start;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     grid-area: 2 / 2 / 3 / 3;
 }
   
 .breveBorderline {
     justify-self: start;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     grid-area: 3 / 2 / 4 / 3;
 }
@@ -418,7 +422,6 @@ figure.imagem-legenda:active figcaption{
    align-self: stretch;
    grid-area: 2 / 3 / 3 / 4;
    width: 1px;
-   border-left: thick solid var(--superescuro);
 }
 
 .paginaInicial h2 {
@@ -489,4 +492,98 @@ figure.imagem-legenda:active figcaption{
         margin-left: 1rem;
     }
                     
+}
+/* Noticias */
+.noticias h2 {
+    margin-left: 5%;
+}
+.noticiasSub {
+    margin: auto;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 1px 1px; 
+    grid-template-areas: 
+      "noticiaImagem1 noticiaInfo1"
+      "noticiaImagem2 noticiaInfo2"
+      "noticiaImagem3 noticiaInfo3"; 
+}
+
+.noticiasSub a {
+    text-decoration: none;
+    color: var(--superescuro);
+}
+
+.noticiasSub h3 {
+    font-size: 1rem;
+}
+
+.noticiaImagem1 { 
+    grid-area: noticiaImagem1;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    width: 150px;
+    height: 100px;
+}
+
+.noticiaInfo1 { 
+    grid-area: noticiaInfo1; 
+    margin-left: none;
+    margin-top: 1.5rem
+}
+
+.noticiaImagem2 { 
+    grid-area: noticiaImagem2; 
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    width: 150px;
+    height: 100px;
+}
+
+.noticiaInfo2 { grid-area: noticiaInfo2;
+    margin-left: none;
+    margin-top: 1.5rem  }
+
+.noticiaImagem3 { 
+    grid-area: noticiaImagem3; 
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    width: 150px;
+    height: 100px;
+}
+
+.noticiaInfo3 { 
+    grid-area: noticiaInfo3;
+    margin-left: none;
+    margin-top: 1.5rem 
+}
+
+@media only screen and (max-width: 1700px) {
+    .noticiasSub {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;  
+        grid-template-areas: 
+          "noticiaImagem1"
+          "noticiaInfo1"
+          "noticiaImagem2"
+          "noticiaInfo2"
+          "noticiaImagem3"
+          "noticiaInfo3"; 
+        align-content: start; 
+        align-items: start; 
+      }
+
+      noticiaInfo1 { margin-left: 1.5rem;}
+      noticiaInfo2 { margin-left: 1.5rem;}
+      noticiaInfo3 { margin-left: 1.5rem;}
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }

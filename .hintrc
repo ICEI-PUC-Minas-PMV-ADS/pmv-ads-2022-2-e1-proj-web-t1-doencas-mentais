@@ -15,6 +15,7 @@
       {
         "duplicate-id-active": "off"
       }
-    ]
+    ],
+    "axe/text-alternatives": "off"
   }
 }

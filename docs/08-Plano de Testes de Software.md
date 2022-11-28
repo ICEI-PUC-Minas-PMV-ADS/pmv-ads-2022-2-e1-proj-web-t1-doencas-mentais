@@ -22,7 +22,7 @@
 | **Fracasso** | O comentário é deletado depois de sair.|
 
 ## Teste 4
-| Condição  | Seção de comentários  |
+| Condição  | Teste de Newsletter |
 | ------------------- | ------------------- |
 | **Objetivo**  | Verificar se o campo de newsletter aceita inscrição somente com texto no campo de nome e um email válido no campo de email. |
 | **Sucesso**  | As caixas de texto de nome e email ficarão verdes. |

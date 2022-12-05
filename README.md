@@ -42,7 +42,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-<a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t1-doencas-mentais/src/index.html">Utilizado o GitHub Pages</a>
+* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t1-doencas-mentais/src/index.html">Utilizado o GitHub Pages</a>
 
 # Armazenamento do Código-Fonte
 

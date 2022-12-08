@@ -1,16 +1,22 @@
 /*Caixa de comentários*/
 #disqus_thread{
-    background-color: lightgrey;
-    height: 700px;
-    width: 400px;
+    background-color: var(--branco);
+    height: 500px;
+    width: 90%;
 }
 
-#gridbox{
+#gridbox {
+    margin-left: 15%;
     display: grid;
     grid-template-columns: 1fr 400px 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    align-items: center;
+    justify-content: center;
 }
     
-.comentariosDiv1 { grid-area: 1 / 2 / 2 / 3; }
+.comentariosDiv1 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    margin-left: 5%;
+}

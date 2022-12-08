@@ -16,6 +16,7 @@
         "duplicate-id-active": "off"
       }
     ],
-    "axe/text-alternatives": "off"
+    "axe/text-alternatives": "off",
+    "axe/forms": "off"
   }
 }

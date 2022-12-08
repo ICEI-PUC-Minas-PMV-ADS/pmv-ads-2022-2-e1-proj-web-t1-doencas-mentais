@@ -62,16 +62,73 @@
         </div>
     </div>
     <!--Corpo-->
-    <div class="main" id="contato">
-        <h1>Sobre nós</h1>
-        <br/>
-        <p>Ao "navegar" pela rede é possível encontrar diversas informações sobre transtornos mentais, e eventualmente nos tornarmos vítimas de informções incompletas ou tendenciosas, que nos induz a desenvolver um pensamento mais pessimista em relação ao processo de tratamento com o qual iremos nos deparar. A iniciativa do nosso site parte de uma solução com o foco em informar e acolher os usuários, introduzindo eles numa comunidade que vai auxiliar esse processo de tratamento, uma nova rede de apoio.</p>
-        <br/>
-        <h2>Contato</h2>
-        <br/>
-        <p>Entre em contato, caso tenha alguma sugestão, caso tenha encontrado algum erro no site ou ainda que algum conteúdo tenha desagradado você, precisamos do seu feedback para continuarmos melhorando.</p>
-        <p>É possível se comunicar por email, redes sociais ou ainda por telefone.</p>
-    </div>
+    <div class="containerContato">
+        <span class="big-circle"></span>
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Conte para a gente.</h3>
+            <p class="text">
+            Entre em contato com a gente para críticas, opiniões e pedidos a respeito do nosso site!
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <p>Parque da Independência - Ipiranga, São Paulo - SP, 04263-000</p>
+              </div>
+              <div class="information">
+                <p>contato@mindspace</p>
+              </div>
+              <div class="information">
+                <p>+55 (11) 2975-5555</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Redes:</p>
+              <div class="social-icons">
+                <a href="#">
+                  <i class="fa fa-facebook-official"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contato</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Nome</label>
+                <span>Nome</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Telefone</label>
+                <span>Telefone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Mensagem</label>
+                <span>Mensagem</span>
+              </div>
+              <input type="submit" value="Enviar" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>  
     <!--Rodapé-->
     <footer>
         <div class="rodape">
@@ -110,6 +167,7 @@
         </div>
     </footer>
     <!--Script java do site, não retirar daqui-->
+    <script src="contato.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

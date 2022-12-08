@@ -1,7 +1,7 @@
 /*Caixa de comentários*/
 #disqus_thread{
     background-color: var(--branco);
-    height: 500px;
+    height: 50%;
     width: 90%;
 }
 

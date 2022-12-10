@@ -9,7 +9,3 @@
 ## Transtornos Mentais
 
 MindSpace http://127.0.0.1:5555/src/img/logoindex.png
-
-## Apresentação
-
-/home/felipetaguchi/Transferências/slides-apresentação (1).pdf

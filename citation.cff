@@ -1,0 +1,19 @@
+message: Please cite this software using these metadata.
+title: Mindspace
+authors:
+  - family-names: Ruan Gomes
+    given-names: Diego
+  - family-names: Massahiro Taguchi Coelho
+    given-names: Felipe 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce
+keywords:
+  - Saúde Mental
+  - Saúde
+  - Informações
+  - EIXO 1
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/mindspace
+version: 1.0.0
+date-released: 2022-12-11
